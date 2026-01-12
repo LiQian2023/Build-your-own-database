@@ -1,11 +1,19 @@
 # Prerequisites
 *.d
 
+# IDE
+*.suo
+*.user
+.vs/
+.vscode/
+
 # Object files
 *.o
 *.ko
 *.obj
 *.elf
+*.vcxproj.user
+*.vcxproj.filters
 
 # Linker output
 *.ilk
@@ -35,12 +43,24 @@
 *.i*86
 *.x86_64
 *.hex
+*.bundle
+*.ilk
+*.ipch
+*.tlog
+*.log
+*.cache
+*.manifest
+*.res
+*.rc
+x64/
+
 
 # Debug files
 *.dSYM/
 *.su
 *.idb
 *.pdb
+.Debug/
 
 # Kernel Module Compile Results
 *.mod*
