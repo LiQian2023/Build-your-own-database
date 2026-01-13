@@ -46,3 +46,27 @@ Finish the code by myself.Four functions I have writen:
 - void test_SQL_VM();																		// test SQL_VM's all functions
 
 ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+2026.01.13 —— Implemented Hard_Code_Table Insert functionality
+
+Read the source code of com/codecrafters-io/build-your-own-database.
+
+Record the source code in the file —— my_own_database_source.
+
+
+Finish the code by myself.Twelve functions I have writen:
+
+- void Print_row(Row* row);																	// print the information of row
+- void serialize(Row* source, void* destination);												// serialize: store the data from source to destination
+- void deserialize(void* source, Row* destination);											// deserialize: store the data from source to destination
+- void* row_slot(Table** table, uint32_t row_num);											// get the page's byteoffset
+- Table* new_table();																			// create a new table 
+- void Free_Table(Table** table);																// free the table space which was been malloc/calloc/realloc
+- MetaCommandResult do_mete_command(Input_Buffer** input_buffer, Table** table);				// work the meta command
+- PrepareResult prepare_command(Input_Buffer** input_buffer, Statement* statement);			// get the prepare statement
+- ExecuteResult execute_insert(Table** table, Statement* statement);							// execute the insert function
+- ExecuteResult execute_select(Table** table);												// execute the select function
+- ExecuteResult execute(Table** table, Statement* statement);									// get the result of execute
+- void test_insert();																			// test the insert function
+
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
