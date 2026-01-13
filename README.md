@@ -31,3 +31,18 @@ Finish the code by myself.Seven functions I have writen:
 Because my operating system is Windows, I have to implement the function my_getline. If your OS is Linux or MacOS, you can use the function getline.
 ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
+2026.01.13 —— Implemented SQL_VM functionality
+
+Read the source code of com/codecrafters-io/build-your-own-database.
+
+Record the source code in the file —— my_own_database_source.
+
+
+Finish the code by myself.Four functions I have writen:
+
+- Meta_Command_state get_meta_command_state(Input_Buffer** input_buffer);					// get command statement
+- Prepare_State get_prepare_state(Input_Buffer** input_buffer, StatementType* statement);	// get prepare statement
+- void execute_command(Input_Buffer** input_buffer, StatementType* statement);				// execute command
+- void test_SQL_VM();																		// test SQL_VM's all functions
+
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
