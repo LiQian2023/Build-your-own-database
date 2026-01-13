@@ -127,6 +127,7 @@
     <ClInclude Include="database.h" />
   </ItemGroup>
   <ItemGroup>
+    <ClCompile Include="Hard_Code_Table.c" />
     <ClCompile Include="REPL.c" />
     <ClCompile Include="SQL_VM.c" />
     <ClCompile Include="test.c" />
