@@ -123,10 +123,12 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClInclude Include="Hard_Code_Table.h" />
     <ClInclude Include="REPL.h" />
     <ClInclude Include="SQL_VM.h" />
   </ItemGroup>
   <ItemGroup>
+    <ClCompile Include="Hard_Code_Table.c" />
     <ClCompile Include="main.c" />
     <ClCompile Include="REPL.c" />
     <ClCompile Include="SQL_VM.c" />
