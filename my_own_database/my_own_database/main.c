@@ -1,9 +1,10 @@
 #define _CRT_SECURE_NO_WARNINGS 1
 
-#include "SQL_VM.h"
+#include "Hard_Code_Table.h"
 
 int main() {
 	// test_REPL();
-	test_SQL_VM();
+	// test_SQL_VM();
+	test_insert();
 	return 0;
 }
